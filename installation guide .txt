@@ -1,0 +1,11 @@
+1-first configurethe connection string in this projects as your server connection
+	{EGMovies.WinAppParseData,
+	 EGMovies.BOL,
+	 EGMovies.WebUI	 
+	}.
+
+2- next run the EGMovies.WinAppParseData project by set it as default project or run the .exe file from Debug folder
+	once you get the saved data message by clicking on "Generate data" button,
+	that means the database generated successfully.
+
+3- next run theEGMovies.WebUI project.
