@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGMovies.WebUI", "EGMovies.WebUI\EGMovies.WebUI.csproj", "{CEDBE2B6-99C5-4BAC-AA86-F09F43F5FA9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGMovies.BOL", "EGMovies.BOL\EGMovies.BOL.csproj", "{7E0928DC-032A-4B93-98AF-4330102B5239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGMovies.DAL", "EGMovies.DAL\EGMovies.DAL.csproj", "{E4E1E859-0F32-46AE-88EE-92AFCC93456B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGMovies.WinAppParseData", "EGMovies.WinAppParseData\EGMovies.WinAppParseData.csproj", "{FEAD472C-9D92-474F-A4CE-64BD58157B78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{CEDBE2B6-99C5-4BAC-AA86-F09F43F5FA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEDBE2B6-99C5-4BAC-AA86-F09F43F5FA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEDBE2B6-99C5-4BAC-AA86-F09F43F5FA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0928DC-032A-4B93-98AF-4330102B5239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0928DC-032A-4B93-98AF-4330102B5239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0928DC-032A-4B93-98AF-4330102B5239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0928DC-032A-4B93-98AF-4330102B5239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E1E859-0F32-46AE-88EE-92AFCC93456B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E1E859-0F32-46AE-88EE-92AFCC93456B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E1E859-0F32-46AE-88EE-92AFCC93456B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E1E859-0F32-46AE-88EE-92AFCC93456B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAD472C-9D92-474F-A4CE-64BD58157B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAD472C-9D92-474F-A4CE-64BD58157B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAD472C-9D92-474F-A4CE-64BD58157B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAD472C-9D92-474F-A4CE-64BD58157B78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

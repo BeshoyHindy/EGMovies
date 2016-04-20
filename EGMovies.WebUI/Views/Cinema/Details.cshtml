@@ -1,0 +1,108 @@
+﻿@model EGMovies.WebUI.ViewModels.CinemaDetailsViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CinemaDetailsViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cinema.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cinema.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CinemaGroup.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CinemaGroup .Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CinemaGroup.Area)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CinemaGroup.Area)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CinemaGroup.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CinemaGroup.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CinemaGroup.Description )
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CinemaGroup.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CinemaGroup.Telephone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CinemaGroup.Telephone)
+        </dd>
+
+       
+
+
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Shows)
+                </th>
+                @*<th>
+                        @Html.DisplayNameFor(model => model.Actors)
+                    </th>*@
+
+            </tr>
+
+            @foreach (var item in Model.Shows)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Movie.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Movie.ShowingDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ShowFrom)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ShowTo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cinema.Name)
+                    </td>
+
+                </tr>
+            }
+
+        </table>
+
+
+    </dl>
+
+
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
+    @Html.ActionLink("Back to List", "Index")
+</p>
